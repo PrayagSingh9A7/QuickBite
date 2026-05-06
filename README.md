@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # QuickBite
 
 QuickBite is a complete MERN food delivery web app with React, Vite, Tailwind CSS, Express, MongoDB Atlas, Mongoose, JWT authentication, role-based authorization, Cloudinary image uploads, cart/order flows, and an admin dashboard.
@@ -191,3 +192,45 @@ db.users.updateOne({ email: "you@example.com" }, { $set: { role: "admin" } })
 ```
 
 After logging in again, the admin dashboard will be available.
+=======
+# 🍔 QuickBite — MERN Food Delivery App
+
+QuickBite is a modern full-stack food delivery web application built using the MERN stack.  
+The project includes authentication, food browsing, cart management, admin dashboard, and order management features.
+
+---
+
+# 🚀 Features
+
+- User Signup/Login
+- JWT Authentication
+- Food Search & Category Filter
+- Add to Cart
+- Order Placement
+- Order History
+- Admin Dashboard
+- Add/Edit/Delete Food Items
+- Responsive UI
+- Cloudinary Image Upload
+
+---
+
+# 🧑‍💻 Tech Stack
+
+## Frontend
+- React + Vite
+- Tailwind CSS
+- Axios
+- React Router DOM
+
+## Backend
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- JWT Authentication
+- bcryptjs
+
+---
+
+>>>>>>> a7b490da5fe776e53b64e06e668413729d4c95ca
