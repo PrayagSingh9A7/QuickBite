@@ -40,7 +40,7 @@ const Home = () => {
   return (
     <section className="space-y-10">
 
-      {/* HERO SECTION */}
+    
       <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-orange-500 via-red-500 to-pink-500 p-8 text-white shadow-2xl md:p-12">
 
         <div className="absolute right-0 top-0 h-52 w-52 rounded-full bg-white/10 blur-3xl"></div>
@@ -108,7 +108,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* SEARCH + FILTER */}
+     
       <div className="grid gap-4 md:grid-cols-[1fr_240px]">
 
         <div className="relative">
@@ -140,7 +140,7 @@ const Home = () => {
         </select>
       </div>
 
-      {/* FOOD SECTION */}
+    
       <div className="flex items-center justify-between">
         <h2 className="text-2xl font-extrabold text-stone-800">
           Popular Dishes
