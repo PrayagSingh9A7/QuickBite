@@ -37,7 +37,7 @@ const Orders = () => {
               </div>
             ))}
           </div>
-          <p className="mt-4 text-right text-lg font-extrabold">${order.totalAmount.toFixed(2)}</p>
+          <p className="mt-4 text-right text-lg font-extrabold">₹{order.totalAmount.toFixed(2)}</p>
         </article>
       ))}
       {!orders.length && <p className="rounded-lg border border-stone-200 bg-white p-8 text-center text-stone-600">No orders yet.</p>}
