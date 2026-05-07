@@ -15,7 +15,7 @@ const FoodCard = ({ food }) => {
             <h3 className="text-lg font-bold text-stone-950">{food.name}</h3>
             <p className="text-sm font-medium text-brand-700">{food.category}</p>
           </div>
-          <p className="font-extrabold text-stone-950">${food.price.toFixed(2)}</p>
+          <p className="font-extrabold text-stone-950">₹{food.price.toFixed(2)}</p>
         </div>
         <p className="line-clamp-2 text-sm text-stone-600">{food.description}</p>
         <button className="btn-primary w-full" onClick={() => addToCart(food)} disabled={!food.isAvailable || !user}>
