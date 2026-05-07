@@ -78,7 +78,7 @@ const foods = [
   price: 149,
   category: "Momos",
   image: {
-    url: "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+    url: "https://www.zippyfeed.com/wp-content/uploads/2023/02/Paneer-Fried-momo-1980x1320-1.jpg",
     publicId: "quickbite/fried-momos"
   },
   isAvailable: true
