@@ -33,7 +33,7 @@ const Orders = () => {
             {order.items.map((item) => (
               <div className="flex items-center justify-between gap-4" key={item.food}>
                 <span>{item.name} x {item.quantity}</span>
-                <span className="font-semibold">${(item.price * item.quantity).toFixed(2)}</span>
+                <span className="font-semibold">₹{(item.price * item.quantity).toFixed(2)}</span>
               </div>
             ))}
           </div>

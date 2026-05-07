@@ -135,7 +135,7 @@ const AdminDashboard = () => {
             <img src={food.image.url} alt={food.name} className="h-24 w-24 rounded-md object-cover" />
             <div>
               <h3 className="font-bold">{food.name}</h3>
-              <p className="text-sm text-stone-600">{food.category} - ${food.price.toFixed(2)}</p>
+              <p className="text-sm text-stone-600">{food.category} - ₹{food.price.toFixed(2)}</p>
               <p className="text-sm text-stone-500">{food.isAvailable ? 'Available' : 'Unavailable'}</p>
             </div>
             <div className="flex items-start gap-2">
